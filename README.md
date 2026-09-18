@@ -90,9 +90,7 @@ Here's a real ad generated with this skill from start to finish. Total cost: ~$4
 
 **Result:**
 
-https://github.com/user-attachments/assets/mars-men-ad.mp4
-
-[Download the example video](examples/mars-men-ad.mp4)
+https://github.com/avirupsarker/ghibli-animation-ads-claude-skill/raw/main/examples/mars-men-ad.mp4
 
 **Details:**
 

@@ -78,11 +78,40 @@ Assembly is free and re-runnable, so fixing one clip and re-stitching costs noth
 - **Video** — Vidu Q1 start-end-to-video (keyframe-to-keyframe transitions)
 - **Voice** — ElevenLabs via fal.ai
 
-## What makes this different from claymation ads
+## Example: Mars Men testosterone supplement ad
 
-This skill uses the same production pipeline structure as the [claymation ads skill](https://github.com/mikefutia/claymation-ads-claude-skill), but swaps the visual style entirely. Instead of 3D clay-textured characters, everything here is flat 2D with painted textures, watercolor environments, and soft hand-drawn line work. The look feels more like a warm animated short film than a stop-motion commercial.
+Here's a real ad generated with this skill from start to finish. Total cost: ~$4.70 in API credits. Time: about 30 minutes.
 
-The underlying consistency system (style locks, character masters, scene chaining, clip contracts) works the same way. If you've used the claymation version, you already know the workflow. The difference is purely visual.
+**Prompt used:**
+
+> I sell a testosterone product for men called Mars Men — image attached. Make me a Ghibli-style animation ad based on the below:
+>
+> 45 second ad. Testosterone levels have been dropping 1% every year since 1980. Stress, poor sleep, processed diets, and toxins are destroying natural hormone production. Low testosterone drains energy, strength, and focus. Mars Men helps you reclaim your edge.
+
+**Result:**
+
+https://github.com/user-attachments/assets/mars-men-ad.mp4
+
+[Download the example video](examples/mars-men-ad.mp4)
+
+**Details:**
+
+- 44.5 seconds, 1080x1920 (9:16 vertical), 17.6MB
+- 10 scenes with a single recurring character (Ren, ~38yo man)
+- Narrative arc: cold/drained morning life → discovers Mars Men → warm sunrise transformation
+- Voice: Brian (ElevenLabs via fal.ai), speed 0.96
+- Each scene transitions smoothly into the next using the two-keyframe clip contract
+- Product packaging rendered from the real product photo attached as reference
+
+**Cost breakdown:**
+
+| Stage | Cost |
+|-------|------|
+| Images (style lock, character master, 10 keyframes) | ~$0.66 |
+| Voiceover (10 lines) | ~$0.04 |
+| Video clips (10 clips) | ~$4.00 |
+| Assembly | free |
+| **Total** | **~$4.70** |
 
 ## Notes
 

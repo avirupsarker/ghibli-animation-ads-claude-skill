@@ -89,9 +89,6 @@ Here's a real ad generated with this skill from start to finish. Total cost: ~$4
 > 45 second ad. Testosterone levels have been dropping 1% every year since 1980. Stress, poor sleep, processed diets, and toxins are destroying natural hormone production. Low testosterone drains energy, strength, and focus. Mars Men helps you reclaim your edge.
 
 **Result:**
-
-https://github.com/user-attachments/assets/mars-men-ad.mp4
-
 [Download the example video](examples/mars-men-ad.mp4)
 
 **Details:**

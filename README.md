@@ -2,6 +2,8 @@
 
 By Avirup Sarker
 
+A Claude Code skill to create Ghibli-style animation video ads for any brand. Create video ads for peanuts compared to Higgsfield and Sedance without losing out on quality.
+
 Turn a product photo and an advertising angle into a finished vertical Ghibli-inspired animated video ad, entirely inside Claude.
 
 Claude runs the full production pipeline: writing the script, designing characters in a hand-painted 2D style, generating every keyframe still, recording the voiceover, animating clips between keyframes, and stitching the final video. You review at five checkpoints and approve the spend before anything expensive runs.
